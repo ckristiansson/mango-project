@@ -1,0 +1,136 @@
+
+html, body{
+    color: #444444;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Century Gothic', serif;
+}
+
+html{
+    background-image: url(assets/Menu\ Waves.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#FFE7AB;
+}
+
+h1, h2{
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+h1{
+    font-size: 5em;   
+}
+
+h2{
+    font-size: 3.5em;   
+}
+
+.content{
+    z-index: 1;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+#navbar ul{
+    display: flex;
+    padding: 0;
+    align-items: baseline;
+}
+
+#navbar ul li{
+    font-size: 18px;
+    display: block;
+    margin-left: 3.15em;
+}
+
+#navbar ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#signin_btn{
+    font-family: 'Century Gothic', serif;
+    background-color: transparent;
+    color: #444444;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding: .5em 1.5em .5em 1.5em;
+    font-size: 16px;
+    transition: .1s;
+}
+
+#signin_btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #444444;
+    transition: .1s ease-in-out;
+}
+
+.article{
+    display: flex;
+    margin-top: 5em;
+}
+
+.article__img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img_one{
+    background-image: url(assets/img1_medium.jpg);
+    height: 90vh;
+    width: 70%;
+    margin-left: 7em;
+    box-shadow: -5px 5px 15px 0px #00000041;
+}
+
+#img_two{
+    background-image: url(assets/img2_medium.jpg);
+    height: 50vh;
+    width: 60vw;
+    box-shadow: 5px 5px 15px 0px #00000041;
+}
+
+.article__text{
+    display: flex;
+    justify-content: center;
+}
+
+.article__text p{
+    margin-top: 1em;
+    font-size: 20px;
+    line-height: 130%;   
+}
+
+.article button{
+    font-family: 'Century Gothic', serif;
+    font-size: 16px;
+    background-color: #444444;
+    color: white;
+    height: 2.8em;
+    width: 16.25em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1.5em;
+}
+
+.article button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    margin-top: 10vh;
+    width: 55%;
+}
