@@ -1,7 +1,5 @@
 # The Mango Project
 
-# Hello
-
 This is a personal project where I try to implement one of my webbdesigns.
 
 I wanted a very modern, sleek yet warm and inviting design that was easy to navigate. Therefore, I opted to use very few, soft colors and leave lots of air in the design.
